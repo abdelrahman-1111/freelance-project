@@ -7,7 +7,7 @@ terraform {
     }
 
     backend "s3" {
-        bucket = "iti-course-terraformstate"
+        bucket = "terraform-state"
         key    = "terraform.tfstate"
         region = "us-east-1"
     }
