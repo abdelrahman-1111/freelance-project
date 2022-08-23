@@ -3,7 +3,5 @@ module "my_network" {
     vpc_region           = var.region
     vpc_CIDR             = var.vpc_CIDR
     public_subnet1_CIDR  = var.public_subnet1_CIDR
-    public_subnet2_CIDR  = var.public_subnet2_CIDR
     private_subnet1_CIDR = var.private_subnet1_CIDR
-    private_subnet2_CIDR = var.private_subnet2_CIDR
 }
