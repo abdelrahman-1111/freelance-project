@@ -7,8 +7,8 @@ terraform {
     }
 
     backend "s3" {
-        bucket = "terraform-state"
-        key    = "terraform.tfstate"
+        bucket = "terraform-state1223"
+        key    = "statefile-locker"
         region = "us-east-1"
     }
 }
